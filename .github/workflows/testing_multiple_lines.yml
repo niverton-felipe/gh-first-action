@@ -1,0 +1,10 @@
+name: Testing Multiple Lines
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu latest
+    steps:
+      - name: teste multiple lines
+        run: |
+          echo "First output"
+          echo "Second output"
